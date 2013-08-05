@@ -1,14 +1,13 @@
-# Welcome to KarmaVille
+# KarmaVille
 
-## Getting Started
-
-KarmaVille uses [PostgreSQL](http://www.postgresql.org/).  Run the following commands to get started:
+### This app was my first time dealing with a large database
 
 ```text
-$ git clone git://github.com/Devbootcamp/karmaville.git
-$ cd karmaville
-$ bundle install
-$ rake db:setup
+clone the repo
+cd into the repo
+run bundle install
+run rake db:setup
+run rails s
 ```
 
 The `rake db:setup` command could take several minutes to run.
